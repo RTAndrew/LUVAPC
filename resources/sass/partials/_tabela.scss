@@ -1,0 +1,22 @@
+table {
+
+	margin-top: 1em;
+
+	thead {
+		background-color: $snow-flake;
+	}
+
+	td {
+		padding: 1em 0.625em;
+	}
+
+}
+	
+
+	.tabela__link {
+		color: black;
+		&:hover {
+			color: inherit;
+			text-decoration: underline;
+		}
+	}

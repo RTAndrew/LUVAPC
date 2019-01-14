@@ -1,0 +1,83 @@
+.landing-page {
+	padding-top: 0;
+	.hero {
+		background: $green;
+
+		.container {
+			width: 65%;
+		}
+	}
+
+
+	.hero__left {
+		padding-top: 2em;
+		
+		h1 {
+			color: $white;
+			font-size: ms(13);
+			letter-spacing: 2px;	
+			text-transform: capitalize;
+		}
+
+		p {
+			font-weight: 600;
+			color: $black;
+			opacity: 0.5;
+		}
+
+		.button {
+			padding: 1em 1.5em; 
+			margin-right: 1.5em;
+			font-weight: 600;
+
+			&.primary {
+				background-color: #fff;
+				color: $black;
+
+			}
+		}
+	}
+
+
+	.hero__buttons{
+		margin-top: 2em;
+	}
+
+
+
+
+}
+
+
+.como-funciona {
+	
+
+}
+
+	.como-funciona__block{
+		margin-top: 5em;
+
+		img {
+			align-content: center;
+			align-items: center;
+			width: 10em;
+			height: 8em;
+		}
+
+		h1 {
+			align-content: center;
+			align-items: center;
+			margin-top: 1.3em;
+			font-size: ms(5);
+		}
+
+		p {
+			opacity: 0.5;
+			font-size: ms(2);
+			margin-top: 0.5em;
+		}
+	}
+
+.como-funciona__inner-blocks {
+	padding: 0 2em; 
+}

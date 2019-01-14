@@ -1,0 +1,104 @@
+.escola-page {
+	padding-bottom: $section-padding;
+
+}
+
+.candidatura__wrapper {
+	background-color: $light-gray;
+}
+
+.dashboard {
+	margin: 2em 0;
+
+	form {
+		margin-bottom: 1em;
+	}
+
+
+}
+.dashboard--candidatura {
+	margin-bottom: 2em;
+	background-color: $snow-flake;
+	padding: $section-padding+-1.5 0; 
+
+	.dashboard__titulo {
+		font-family: $sans-serif;
+	}
+}
+
+
+
+.spacing {
+	margin: 0 0.9em;
+}
+
+.dashboard__candidatura, 
+.dashboard__titulo, {
+	font-size: ms(10);
+	font-family: $serif;
+	margin-bottom: 0.5em;
+	display: inline-block;
+}
+
+.dashboard__wrapper {
+	border-radius: 5px;
+	border: 2px solid $snow-flake;
+	background-color: $light-gray;
+	padding: $section-padding/2 $section-padding+-1;
+
+	div {
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
+	}
+}
+
+
+
+.escola__classe,
+.escola__turno {
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+.escola__vagas {
+	padding-top: 0.8em;
+	margin-top: 0.8em !important; 
+	border-top: 1.5px solid $snow-flake;
+
+	.estado-vagas {
+		margin-left: 0.5em;
+		vertical-align: center;
+
+		img {
+			vertical-align: middle;
+		}
+	}
+}
+
+.escola__classe{
+	font-weight: 600;
+}
+
+.escola__turno {
+	margin-top: 0 !important;
+	margin-left: 1em;
+}
+
+
+
+
+.dashboard__candidatura-descricao {
+	color: $red;
+}
+
+
+.dashboard__candidatura-descricao--normal {
+	margin: 0.1em 1em;
+
+	&:nth-child(5){
+		margin-bottom: 1em;
+	}
+}
+
+

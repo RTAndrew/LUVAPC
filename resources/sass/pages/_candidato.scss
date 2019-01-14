@@ -1,0 +1,38 @@
+.candidato-page {
+	// height: 50vh;
+	background-color: $light-gray;
+	padding-bottom: $section-padding+2;
+
+
+	table {
+		border: 2px solid $snow-flake;
+		padding-bottom: $section-padding;
+	}
+}
+
+
+.candidato {
+	padding: $section-padding 0;
+}
+
+.candidato__nome {
+	font-size: 24px;
+}
+
+.candidato__bi {
+	letter-spacing: 1px;
+	span {
+	letter-spacing: 0px;
+		font-weight: 600;
+	}
+}
+
+.candidatura__estado-candidatura {
+	margin-top: 2em;
+	font-size: ms(4);
+	font-weight: 600;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid $snow-flake;
+}
+
+

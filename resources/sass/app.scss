@@ -1,0 +1,155 @@
+// Variables
+@import 'variables';
+
+// Modules
+@import 'modules/all';
+
+// Vendor
+@import 'vendor/all';
+
+// Partials
+@import 'partials/all';
+
+// Pages
+@import 'pages/all';
+ 
+
+
+
+
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+  	line-height: 1.6;
+ 	color: $black;
+	font-size: 16px;
+	font-family: $sans-serif;
+	background-color: $white;
+}
+
+
+p {
+	margin-bottom: 0;
+	font-weight: $fw-regular;
+	font-family: $sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+	font-size: ms(8);
+	font-family: $serif;
+}
+
+a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.loading-svg {
+	width: 40px;
+	// hri: 20px;
+}
+
+.button {
+	border-radius: 2px;
+	display: inline-block;
+  vertical-align: middle;
+  /* margin: 0 0 1rem 0; */
+  font-family: inherit;
+  padding: 0.85em 1em;
+  -webkit-appearance: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  font-size: 0.9rem;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  background-color: #1779ba;
+  color: #fefefe; 
+	&:hover {
+		transition: 0.3s;
+		opacity: 0.8;
+	}
+	
+	&.primary--green {
+		background-color: $green;
+	}
+
+	&.primary--red{
+		background-color: $red;
+	}
+	&.primary--yellow{
+		background-color: $yellow;
+	}
+	&.primary--orange{
+		background-color: $orange;
+	}
+	&.primary--blue{
+		background-color: #000;
+	}
+	&.primary--indigo{
+		background-color: $indigo;
+	}
+}
+
+.button--simple{
+	background-color: transparent;
+	border: 1px solid $white;
+	&:hover{
+		background-color: transparent;
+	}
+}
+
+
+
+.container {
+	width: 75%;
+	margin: 0 auto;
+	position: relative;
+
+	@media (max-width: 1024px) {
+		width: 83%;
+	}
+
+	@media (max-width: 849px) {
+		width: 90%;
+	}
+
+
+}
+
+
+
+
+
+section {
+	padding-top: $section-padding;
+	padding-bottom: $section-padding;
+}
+
+
+.site-logo {
+	width: 20em;
+	height: 5em;
+	
+	@media (max-width: 849px) {
+		width: 15em;
+		height: 5em;
+	}
+}
+
+.site-logo--footer {
+	width: 15em;
+	height: 5em;
+	// margin-bottom: 2em;
+}
+
+
+

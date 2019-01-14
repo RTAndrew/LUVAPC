@@ -1,0 +1,28 @@
+// @import url('https://fonts.googleapis.com/css?family=Alegreya:400,700|Source+Sans+Pro:400,700');
+
+/********* Open Sans *********/
+	@font-face { 
+		font-family: "Open Sans"; 
+		src: url('fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype'); 
+	}
+
+/********* Open Sans *********/
+	@font-face { 
+		font-family: "Slab"; 
+		src: url('fonts/Zilla_Slab/ZillaSlab-Bold.ttf') format('truetype'); 
+	}
+/********* Open Sans *********/
+	@font-face { 
+		font-family: "SlabB"; 
+		src: url('fonts/Zilla_Slab/ZillaSlab-SemiBold.ttf') format('truetype'); 
+	}
+
+// Family
+$serif: SlabB, serif;
+$sans-serif: Open Sans, sans-serif; 
+
+// Weight
+$fw-regular: 400;
+$fw-semibold: 600;
+$fw-bold: 700;
+

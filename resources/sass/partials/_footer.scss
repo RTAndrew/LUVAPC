@@ -1,0 +1,28 @@
+footer {
+	padding: $section-padding 0;
+	background-color: $light-gray;
+	border-top: 3.5px solid $snow-flake;
+}
+
+
+.footer__powered, 
+.footer__copyright {
+	opacity: 0.5;
+	transition: 0.3s;
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+
+.footer__logo {
+	margin-bottom: 1em;
+}
+
+
+.footer__powered {
+	span {
+		font-weight: 600;
+	}
+}
